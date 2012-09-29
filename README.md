@@ -13,7 +13,7 @@
 
     `git clone git://github.com/qiniu/php5-sdk-example.git photoapp && cd photoapp`
 
-2. 编辑 `lib/config.php` 文件，修改其中字段 `access_key` 和 `secret_key` 的值。参考 [应用接入：获取Access Key 和 Secret Key](http://docs.qiniutek.com/v2/sdk/php5-3/#acc-appkey) 。您也可以修改 `bucket` 的值为任意的有效字符。
+2. 编辑 `lib/config.php` 文件，修改其中字段 `access_key` 和 `secret_key` 的值。参考 [应用接入：获取Access Key 和 Secret Key](http://docs.qiniutek.com/v3/sdk/php5-3/#acc-appkey) 。您也可以修改 `bucket` 的值为任意的有效字符。
 3. 用MySQL source命令（或phpMyAdmin）依次导入 sql/ 目录下的数据库和表结构源文件
 4. Web服务器(比如Nginx或Apache)将应用程序的根目录指向 public/
 5. 确定MySQL和Web Server正常运行，完成以上两步，即可在浏览器中体验
@@ -32,5 +32,5 @@
 
 ## 资源
 
-- [PHP5 SDK 使用指南](http://docs.qiniutek.com/v2/sdk/php5-3/)
-- [用PHP编写的网站，如何让网站用户在浏览器网页中直接向七牛云存储上传文件？](http://docs.qiniutek.com/v2/sdk/php5-3/#web-upload-files-directly)
+- [PHP5 SDK 使用指南](http://docs.qiniutek.com/v3/sdk/php5-3/)
+- [用PHP编写的网站，如何让网站用户在浏览器网页中直接向七牛云存储上传文件？](http://docs.qiniutek.com/v3/sdk/php5-3/#web-upload-files-directly)
